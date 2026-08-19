@@ -3,7 +3,7 @@
 Personal portfolio website built with HTML, CSS, and JavaScript, hosted on GitHub Pages.
 
 ## Live site
-https://YOUR-USERNAME.github.io
+https://Smymy20.github.io
 
 ## Structure
 - `index.html` — page content and structure
