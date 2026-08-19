@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Ahmed Samir | AI Engineer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Mohamed Samir</div>
+  <nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <img src="images/profile.jpg" alt="Mohamed Ahmed Samir" class="profile-pic" onerror="this.style.display='none'">
+  <h1>Mohamed Ahmed Samir</h1>
+  <p class="tagline">AI Engineer &mdash; NLP, RAG Systems &amp; Computer Vision</p>
+  <p class="sub">CS Undergraduate at Helwan University, Cairo, Egypt</p>
+  <div class="hero-buttons">
+    <a href="#projects" class="btn btn-primary">View Projects</a>
+    <a href="#contact" class="btn btn-outline">Contact Me</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <p class="about-text">
+    I'm an Artificial Intelligence undergraduate at Helwan University, pursuing a Bachelor of Computer Science,
+    with a strong foundation in competitive programming through ICPC (graph theory, dynamic programming, and
+    optimization). I build practical AI systems spanning NLP, Retrieval-Augmented Generation (RAG), and
+    Computer Vision, and I'm currently working toward freelancing in Arabic NLP and bilingual RAG-powered
+    chatbots for startups and SaaS platforms. I speak English, Arabic, and Franco-Arab.
+  </p>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-grid" id="skillsGrid"></div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects-grid" id="projectsGrid"></div>
+</section>
+
+<section id="education">
+  <h2 class="section-title">Education &amp; Experience</h2>
+  <div class="timeline" id="timeline"></div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Contact</h2>
+  <p class="contact-intro">Interested in working together or have a question? Reach out.</p>
+  <div class="contact-links">
+    <a href="mailto:your.email@example.com" class="contact-item">✉️ Email</a>
+    <a href="https://github.com/YOUR-USERNAME" target="_blank" class="contact-item">💻 GitHub</a>
+    <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank" class="contact-item">🔗 LinkedIn</a>
+  </div>
+
+  <form id="contact-form">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+  <p id="form-msg"></p>
+</section>
+
+<footer>
+  <p>&copy; <span id="year"></span> Mohamed Ahmed Samir. Built with HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
