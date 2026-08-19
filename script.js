@@ -45,27 +45,7 @@ const projects = [
     github: "https://github.com/YOUR-USERNAME/llm-quiz-generator",
     demo: "#"
   },
-  {
-    title: "Automated Face Recognition Attendance System",
-    desc: "Combined classical computer vision (SIFT, corner detection, segmentation) with PCA Eigenfaces + SVM to detect and log attendance.",
-    tech: ["OpenCV", "SIFT", "PCA", "SVM"],
-    github: "https://github.com/YOUR-USERNAME/face-recognition-attendance",
-    demo: "#"
-  },
-  {
-    title: "Extractive Text Summarization Pipeline",
-    desc: "Comparative pipeline analyzing frequency-based TF-IDF vs. semantic BERT embeddings for extractive summarization.",
-    tech: ["TF-IDF", "BERT", "NLP"],
-    github: "https://github.com/YOUR-USERNAME/text-summarization-pipeline",
-    demo: "#"
-  },
-  {
-    title: "Exam Variance Optimization",
-    desc: "Convex optimization project built with CVXPY to minimize student score variance across exam versions.",
-    tech: ["CVXPY", "Convex Optimization"],
-    github: "https://github.com/YOUR-USERNAME/exam-variance-optimization",
-    demo: "#"
-  }
+  
 ];
 
 const projectsGrid = document.getElementById('projectsGrid');
